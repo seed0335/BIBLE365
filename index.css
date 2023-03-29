@@ -1,6 +1,6 @@
 
 .home {
-    background-color:whitesmoke;           
+    background-color: #ECF2FF;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -9,36 +9,102 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.title {
-    font-size: 4rem;
-    font-family: 'Gothic A1', sans-serif;
-    color:black;
-}
-
-.year {
     text-align: center;
+    }
+
+iframe {
+    width: 100vw;
+    height: 750px;
+    border: none;
+}
+
+.main {
+    width: 98vw;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* list 타이틀 */
+.title1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Alkatra', cursive;
+}
+
+.title2 {
+    font-size: 1.1rem;
+    line-height: 150%;
+}
+
+
+/* 각 네비 타이틀 이름 */
+.title3 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* 각 성경 구절 */
+.verse_en {
+    font-size: 1.4rem;
+}
+
+.verse_ko {
+    font-size: 1.2rem;
+    line-height: 150%;
+    text-align: center;
+}
+
+.chapter_ko {
     font-size: 1.2rem;
     line-height: 150%;
 }
 
-ul {
+
+/* 주제별 버튼 */
+.list {
     margin-right: 40px;
     display: grid;
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(5, 60px);
-    grid-gap: 20px;  
-
-
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(3, 60px);
+    grid-gap: 30px;  
 }
 
 li {
     list-style: none;
-
 }
 
-a {
+.list_a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    text-decoration: none;
+    color: black;
+    font-size:1.2rem;
+    text-align: center;
+}
+
+.fa-book-bible {
+    font-size: 1.5rem;
+}
+
+
+/* 네비게이션 버튼 */
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    margin-right: 40px;
+}
+
+.nav_list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,11 +112,6 @@ a {
 
     text-decoration: none;
     color: black;
-    font-size:1.5rem;
-    border: 2px solid white;
+    font-size:1.1rem;
+    text-align: center;
 }
-
-#a {background-color:#FFF5E4;;} #b {background-color:#E3FDFD;}
-#c {background-color:#FFE3E1;} #d {background-color:#CBF1F5;}
-#e {background-color:#FFD1D1;} #f {background-color:#A6E3E9;}
-#g {background-color:#FF9494} #h {background-color:#71C9CE;}

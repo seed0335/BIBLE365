@@ -2,37 +2,43 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">  <!-- 스타일시트 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 접속 기기별 화면 크기 조정 -->
+    <script src="https://kit.fontawesome.com/70a41c7bda.js" crossorigin="anonymous"></script> <!-- 아이콘 -->
+
+    <!-- 구글 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap" rel="stylesheet"><!-- 구글 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Gothic+A1:wght@700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <!-- 구글 폰트 -->
+    <link rel="stylesheet" href="index.css">  <!-- 스타일시트 -->
     <title>BIBLE 365</title>
 </head>
 
 <body class="home">
-    <br><br><br><br>
-    <div class="title">성경 365</div><br>
-    <br>
-    <div class="year">
-    시온의 자녀들아 너희는 <br>
-    너희 하나님 여호와로 말미암아<br> 
-    기뻐하며 즐거워할지어다<br> 
-    그가 너희를 위하여 비를 내리시되<br> 
-    이른 비를 너희에게 적당하게 주시리니<br> 
-    이른 비와 늦은 비가 예전과 같을 것이라<br>
-    - 요엘 2:23 - </div>
-    <br><br>
-    <ul class="list">
-        <a href="a.html" id="a"><li>예수님</li></a>
-        <a href="b.html" id="b"><li>평안</li></a>
-        <a href="c.html" id="c"><li>말씀</li></a>
-        <a href="d.html" id="d"><li>동행</li></a>
-        <a href="e.html" id="e"><li>구원</li></a>
-        <a href="f.html" id="f"><li>소망</li></a>
-        <a href="g.html" id="g"><li>사랑</li></a>
-        <a href="h.html" id="h"><li>기쁨</li></a>
-    </ul>
+    <iframe src="3list.html" name="iframe_a" scrolling : "no";></iframe> <!-- 프레임 -->
+
+        <!-- 네비게이션바 -->
+        <ul class="nav">
+            <a href="1year.html" target="iframe_a" class="nav_list">
+                <li><i class="fa-regular fa-sun"></i><br>1년</li></li>
+            </a>
+
+            <a href="2today.html" target="iframe_a" class="nav_list">
+                <li><i class="fa-solid fa-calendar-day"></i><br>오늘</li>
+            </a>
+
+            <a href="3list.html" target="iframe_a" class="nav_list">
+                <li><i class="fa-solid fa-list"></i><br>목록</li>
+            </a>
+
+            <a href="4love.html" target="iframe_a" class="nav_list">
+                <li><i class="fa-regular fa-bookmark"></i><br>책갈피<br></li>
+            </a>
+
+            <a href="3list.html" target="iframe_a" class="nav_list">
+                <li><i class="fa-solid fa-magnifying-glass"></i><br>미구현</li>
+            </a>
+
+        </ul>
 </body>
 </html>
