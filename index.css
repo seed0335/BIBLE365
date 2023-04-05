@@ -1,4 +1,4 @@
-
+/* 전체 사이즈 */
 .home {
     background-color: #ECF2FF;
     width: 100vw;
@@ -12,12 +12,14 @@
     text-align: center;
     }
 
+/* 프레임 사이즈 */
 iframe {
     width: 100vw;
     height: 700px;
     border: none;
 }
 
+/* 프레임 안에 내용 */
 .main {
     width: 98vw;
     height: 650px;
@@ -44,7 +46,7 @@ iframe {
 /* 각 네비 타이틀 이름 */
 .title3 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -115,3 +117,4 @@ li {
     font-size:1.1rem;
     text-align: center;
 }
+
