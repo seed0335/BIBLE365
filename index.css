@@ -15,14 +15,14 @@
 /* 프레임 사이즈 */
 iframe {
     width: 100vw;
-    height: 700px;
+    height: 80vh;
     border: none;
 }
 
 /* 프레임 안에 내용 */
 .main {
     width: 98vw;
-    height: 650px;
+    height: 79vh;
 
     display: flex;
     flex-direction: column;
